@@ -13,7 +13,7 @@ getUserName();
 
 function whereFrom() {
   var questionOne = prompt('Where am I originally from?');
-
+  
   if (questionOne.toLowerCase() === 'salt lake city') {
     alert('CORRECT!');
     document.write('<li>For question one you answered ' + questionOne + '. CORRECT!</li>');
