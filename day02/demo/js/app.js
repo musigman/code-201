@@ -13,7 +13,7 @@ getUserName();
 
 function whereFrom() {
   var questionOne = prompt('Where am I originally from?');
-  // console.log(questionOne, 'test');
+
   if (questionOne.toLowerCase() === 'salt lake city') {
     alert('CORRECT!');
     document.write('<li>For question one you answered ' + questionOne + '. CORRECT!</li>');
@@ -26,7 +26,7 @@ whereFrom();
 
 function degree() {
   var questionTwo = prompt('What is my degree in?');
-  // console.log(questionOne, 'test');
+ 
   if (questionTwo.toLowerCase() === 'illustration') {
     alert('CORRECT!');
     document.write('<li>For question one you answered ' + questionTwo + '. CORRECT!</li>');
@@ -39,7 +39,7 @@ degree();
 
 function studyGuitar() {
   var questionThree = prompt('Who did I study guitar with?');
-  // console.log(questionOne, 'test');
+ 
   if (questionThree.toLowerCase() === 'robert fripp') {
     alert('CORRECT!');
     document.write('<li>For question one you answered ' + questionThree + '. CORRECT!</li>');
@@ -52,7 +52,7 @@ studyGuitar();
 
 function kindMusic() {
   var questionFour = prompt('What kind of music do I play?');
-  // console.log(questionOne, 'test');
+
   if (questionFour.toLowerCase() === 'jazz') {
     alert('CORRECT!');
     document.write('<li>For question one you answered ' + questionFour + '. CORRECT!</li>');
@@ -65,7 +65,7 @@ kindMusic();
 
 function cityJazz() {
   var questionFive = prompt('What city do I play jazz?');
-  // console.log(questionOne, 'test');
+
   if (questionFive.toLowerCase() === 'tacoma') {
     alert('CORRECT!');
     document.write('<li>For question one you answered ' + questionFive + '. CORRECT!</li>');
@@ -104,7 +104,7 @@ guessNum();
 
 
 var favMovies = ['waiting for guffman', 'pale rider', 'death proof', 'the jerk', 'swingers', 'zelig', 'superbad', 'sean of the dead', 'rubin and ed', 'napoleon dynamite'];
-// console.log ('line 78',favMovies[4])
+
 var attempts = 6;
 function final() {
   for (var i = 0; i < attempts; i++) {
